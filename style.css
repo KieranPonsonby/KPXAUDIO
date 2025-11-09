@@ -1,3 +1,70 @@
+@media (min-width: 601px){
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+
+}
+
+.container {
+  max-width: auto;
+}
+
+.background {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+}
+
+h1 {
+  color: #fedd00;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  letter-spacing: 2px;
+  text-align: center; 
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+nav ul li {
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0 15px;
+  text-align: center;
+}
+
+nav ul li a {
+  color: #fedd00;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+  width: 25%;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+}
+/*end big screeen*/
+
+
+@media (max-width: 600px){
 body {
   background-color: #000;
   color: #fff;
@@ -13,7 +80,7 @@ body {
 }
 
 h1 {
-  color: yellow;
+  color: #fedd00;
   font-size: 3em;
   margin-bottom: 0.5em;
   letter-spacing: 2px;
@@ -22,7 +89,6 @@ h1 {
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 1em 0;
 }
 
 nav ul li {
@@ -31,7 +97,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: yellow;
+  color: #fedd00;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2em;
@@ -42,8 +108,5 @@ nav ul li a:hover {
   color: white;
 }
 
-p {
-  margin-top: 1em;
-  font-size: 1.1em;
-  color: #ccc;
 }
+/*end mobile*/
